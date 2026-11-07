@@ -1346,15 +1346,3 @@ section{max-width:100vw}
 .svs2{background:#1B2A3D;background:linear-gradient(180deg,#221d17,#1F1B16);border-block:1px solid rgba(240,231,214,.1)}
 
 .steps>div.stab{cursor:default}
-/* draggable marquees */
-.mq,.rw-mq{touch-action:pan-y;cursor:grab;-webkit-user-select:none;user-select:none}
-.mq.dragging,.rw-mq.dragging{cursor:grabbing}
-.mq img,.rw-mq img{-webkit-user-drag:none;user-drag:none}
-/* email line + service-page project form */
-.bkm{margin:16px 0 0;font-size:14px;color:#e6d3c2}.bkm a{color:#ffb27a;font-weight:600;text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
-#svc-project{padding-top:10px}#svc-project .bkc{max-width:900px;margin:0 auto}
-.fcols a[href^="mailto:"]{overflow-wrap:anywhere}
-#svc-project{padding:64px 0}#svc-project form{padding:0;margin:0}
-#svc-project .bkc>p{color:#6b4a35}
-#svc-project label{color:#8a4a1c}
-@media(max-width:600px){#svc-project{padding:40px 0}}
